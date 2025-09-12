@@ -1,0 +1,31 @@
+{
+  "name": "ciao-bella-service",
+  "version": "1.0.0",
+  "description": "A simple Node.js web service that returns 'ciao bella'",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "web-service",
+    "api",
+    "simple"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/ciao-bella-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ciao-bella-service/issues"
+  },
+  "homepage": "https://github.com/yourusername/ciao-bella-service#readme"
+}
