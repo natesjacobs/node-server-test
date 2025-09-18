@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ciao-bella-service
+    env: node
+    plan: starter
+    buildCommand: yarn install
+    startCommand: yarn start
+    envVars:
+      - key: NODE_ENV
+        value: production
